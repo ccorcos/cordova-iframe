@@ -4,7 +4,9 @@
 	"main": "index.js",
 	"scripts": {
 		"clean": "rm -rf platforms && rm -rf plugins",
-		"setup": "cordova platform add ios && cordova prepare"
+		"setup": "cordova platform add ios && cordova prepare",
+		"xcode": "open platforms/ios/HelloCordova.xcworkspace",
+		"server": "cd www && python -m SimpleHTTPServer 8000"
 	},
 	"keywords": [],
 	"author": "Chet Corcos <ccorcos@gmail.com> (http://www.chetcorcos.com/)",
