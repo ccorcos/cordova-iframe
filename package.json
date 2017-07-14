@@ -1,0 +1,15 @@
+{
+	"name": "cordova-iframe",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"clean": "rm -rf platforms && rm -rf plugins",
+		"setup": "cordova platform add ios && cordova prepare"
+	},
+	"keywords": [],
+	"author": "Chet Corcos <ccorcos@gmail.com> (http://www.chetcorcos.com/)",
+	"license": "ISC",
+	"devDependencies": {
+		"cordova": "6.5.0"
+	}
+}
